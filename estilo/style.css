@@ -58,6 +58,7 @@ header {
 
 #toggle {
     display: inline-block;
+    
 }
 
 #toggle span {
@@ -66,6 +67,7 @@ header {
     height: 3px;
     background: #8d96a7 ;
     margin: 2px;
+
 }
 
 nav {
