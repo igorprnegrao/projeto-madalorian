@@ -168,6 +168,7 @@ h2 {
     font-weight: 700;
     margin-bottom: 10px;
     color: #FFF;
+    text-transform: uppercase;
 }
 section {
     margin: 0 15px 38px 15px;
@@ -232,4 +233,69 @@ section {
     border-color: transparent transparent transparent #fff;
     display: block;
     margin-left: 2px;
+}
+
+.boxassine {
+    background: rgba(255, 255, 255, 0.08);
+    border-bottom: rgba(255, 255, 255, 0.08) solid 1px;
+    border-right:  rgba(255, 255, 255, 0.08) solid 1px;
+    border-top: rgba(0, 0, 0, 0.05) solid 1px;
+    border-left: rgba(0, 0, 0, 0.05) solid 1px;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+
+.assin, .preco, .vantagens {
+    display: block;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.assin {
+    font-size: 1.2rem;
+
+}
+
+.preco {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.vantagens {
+    font-size: 1rem;
+    padding: 0 10%;
+}
+
+footer {
+    background: #111a29;
+    padding: 40px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    margin-bottom: 25px;
+
+}
+.redes a {
+    display: flex;
+    background: #FFF;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    font-size: 1.2rem;
+    color: #162336 ;
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.3);
 }
