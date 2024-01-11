@@ -101,3 +101,16 @@ nav a {
 #chk-toggle:checked ~ nav {
     height: auto;
 }
+
+.headline {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 0 15px;
+    flex-direction: column;
+}
+h1 {
+    font-family: 'Koulen', 'Roboto Condensed';
+    color: #fff;
+    font-size: 4rem;
+}
